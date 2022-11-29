@@ -89,9 +89,9 @@ apropiados, conforme mostrado na listagem a segur: pluginRepository
         <url>https://repo.spring.io/milestone</url>
     </pluginRepository>
 </pluginRepositories>
-
+<h3>
 Os usuarios do Maven podem herdar do projeto para obter padroes sensatos. O projeto pai fornece os seguintes recursos: spring-boot-starter-parent. Como os arquivos e a Spring aceitam espaços reservados estilo Spring (), a filtragem do Maven é alterada para espaços reservados de uso. (Você pode substituir isso definindo uma propriedade Maven chamada.)application.propertiesapplication.yml${…​}@..@resource.delimiter
-
+</h3>
 # Para configurar seu projeto para herdar do, defina o seguinte:spring-boot-starter-parentparent
 
 <!-- Inherit defaults from Spring Boot -->
